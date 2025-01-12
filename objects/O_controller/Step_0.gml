@@ -13,3 +13,16 @@ if(global.point > 50){	/// @DnDAction : YoYo Games.Instances.Create_Instance
 	/// @DnDArgument : "objectid" "O_Black_hole"
 	/// @DnDSaveInfo : "objectid" "O_Black_hole"
 	instance_create_layer(379, 106, "Instances", O_Black_hole);}
+
+/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDVersion : 1
+/// @DnDHash : 38182D2F
+/// @DnDArgument : "var" "global.health"
+/// @DnDArgument : "op" "3"
+if(global.health <= 0){	/// @DnDAction : YoYo Games.Rooms.Go_To_Room
+	/// @DnDVersion : 1
+	/// @DnDHash : 00750CDB
+	/// @DnDParent : 38182D2F
+	/// @DnDArgument : "room" "LOSE"
+	/// @DnDSaveInfo : "room" "LOSE"
+	room_goto(LOSE);}

@@ -1,7 +1,10 @@
 {
   "$GMObject":"",
   "%Name":"Object15",
-  "eventList":[],
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"O_Orc_1","path":"objects/O_Orc_1/O_Orc_1.yy",},"eventNum":0,"eventType":4,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"O_Orc_2","path":"objects/O_Orc_2/O_Orc_2.yy",},"eventNum":0,"eventType":4,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
   "name":"Object15",
   "overriddenProperties":[],
