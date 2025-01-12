@@ -9,6 +9,6 @@ instance_create_layer(1056, 0, "Instances", O_LightningBolt);
 /// @DnDAction : YoYo Games.Instances.Set_Alarm
 /// @DnDVersion : 1
 /// @DnDHash : 24DD5897
-/// @DnDArgument : "steps" "120"
+/// @DnDArgument : "steps" "60"
 /// @DnDArgument : "alarm" "2"
-alarm_set(2, 120);
+alarm_set(2, 60);

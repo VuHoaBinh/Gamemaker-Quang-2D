@@ -8,8 +8,8 @@ alarm_set(0, 60);
 /// @DnDVersion : 1
 /// @DnDHash : 1432FC61
 /// @DnDInput : 2
-/// @DnDArgument : "steps_1" "120"
+/// @DnDArgument : "steps_1" "60"
 /// @DnDArgument : "alarm" "1"
 /// @DnDArgument : "alarm_1" "2"
 alarm_set(1, 30);
-alarm_set(2, 120);
+alarm_set(2, 60);
