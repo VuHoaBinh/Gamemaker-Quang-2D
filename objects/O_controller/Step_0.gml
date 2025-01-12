@@ -3,8 +3,8 @@
 /// @DnDHash : 74074888
 /// @DnDArgument : "var" "global.point"
 /// @DnDArgument : "op" "2"
-/// @DnDArgument : "value" "10"
-if(global.point > 10){	/// @DnDAction : YoYo Games.Instances.Create_Instance
+/// @DnDArgument : "value" "50"
+if(global.point > 50){	/// @DnDAction : YoYo Games.Instances.Create_Instance
 	/// @DnDVersion : 1
 	/// @DnDHash : 7BC10D5F
 	/// @DnDParent : 74074888
